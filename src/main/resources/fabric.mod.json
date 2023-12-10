@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "recode-lite",
+  "version": "${version}",
+  "name": "recodelite",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/kyler/recodelite"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/recode-lite/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "client": [
+      "me.max.recodelite.client.RecodeliteClient"
+    ],
+    "main": [
+      "me.max.recodelite.Recodelite"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
